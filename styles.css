@@ -1,0 +1,44 @@
+div {
+    padding: 10px;
+    margin: 10px;
+}
+
+#imgClase{
+    display: inline-block;
+}
+
+.imgClase {
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imgRaza {
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+body{
+    color: white;
+}
+
+.resultsPopup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: grey 1px solid;
+    padding: 30px;
+    border-radius: 11px;
+    box-shadow: black 0px 0px 20px -5px;
+    background-color: white;
+    color: teal;
+    visibility: hidden;
+}
+
+#closeBtn{
+top: 50%;
+left: 50%;
+}

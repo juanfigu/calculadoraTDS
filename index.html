@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body background="img/background.gif">
+
+    <div><img src="img/headline.png" alt=""></div>
+<div class="divClase"><label for="clase">Clase</label>
+<select name="clase" id="clase">
+    <option value="" hidden>Clase</option>
+    <option value="asesino">Asesino</option>
+    <option value="bardo">Bardo</option>
+    <option value="cazador">Cazador</option>
+    <option value="clerigo">Clérigo</option>
+    <option value="druida">Druida</option>
+    <option value="guerrero">Guerrero</option>
+    <option value="mago">Mago</option>
+    <option value="paladin">Paladín</option>
+</select>
+    <div class="imgClase" id="pindonga"><img id="imgClase" src="" alt=""></div>
+</div>
+<div class="divRaza">
+<label for="raza">Raza</label>  
+<select name="raza" id="raza">
+    <option value="" hidden>Raza</option>
+    <option value="enano">Enano</option>
+    <option value="humano">Humano</option>
+    <option value="elfo">Elfo</option>
+    <option value="elfooscuro">Elfo Oscuro</option>
+    <option value="gnomo">Gnomo</option>
+</select>
+    <div class="imgRaza">
+        <div class=""><img class="masculino" id="masculino" src="" alt=""></div>
+        <div class=""><img src="" id="femenino" alt="" class="femenino"></div>
+    </div>
+</div>
+<div class="divExtras">
+<label for="level">Level</label>
+<input type="number" id="level" min="1" max="50" placeholder="Nivel">
+<label for="vida">Vida</label>
+<input type="number" id="vida" min="0" placeholder="Vida">                                            
+<button id="calcular" class="calcular">Calcular Promedio</button>
+</div>
+<div class="resultsPopup" id="resultsPopup">
+    <div class="divPromedio" id="divPromedio"></div>
+    <div class="divResult" id="divResult"></div>
+    <button class="closeBtn" id="closeBtn">OK</button>
+</div>
+</body>
+</html>
